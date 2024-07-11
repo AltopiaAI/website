@@ -1,0 +1,197 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, a, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header .logo {
+    float: left;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #0779e4;
+}
+
+header .btn {
+    background: #0779e4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .btn:hover {
+    background: #055aa3;
+}
+
+/* Hero section styling */
+.hero {
+    background: #0779e4;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background: #fff;
+    color: #0779e4;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero .btn:hover {
+    background: #ccc;
+}
+
+/* About section styling */
+.about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Solutions section styling */
+.solutions {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.solutions h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.solution {
+    margin-bottom: 30px;
+}
+
+.solution h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.solution p {
+    font-size: 18px;
+}
+
+/* Features section styling */
+.features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style: none;
+}
+
+.features ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Testimonials section styling */
+.testimonials {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.testimonials p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Blog section styling */
+.blog {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.blog h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.blog article {
+    margin
+
