@@ -1,5 +1,5 @@
 // Set the launch date (example date: December 31, 2024)
-const launchDate = new Date("Sep 30, 2024 00:00:00").getTime();
+const launchDate = new Date("Oct 31, 2024 00:00:00").getTime();
 
 const countdown = setInterval(() => {
     const now = new Date().getTime();
@@ -20,4 +20,3 @@ const countdown = setInterval(() => {
         document.querySelector(".container").innerHTML = "<h1>We're Live!</h1><p>Welcome to Altopia.AI</p>";
     }
 }, 1000);
-
