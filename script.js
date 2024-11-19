@@ -1,5 +1,5 @@
 // Set the launch date (example date: December 31, 2024)
-const launchDate = new Date("Oct 31, 2024 00:00:00").getTime();
+const launchDate = new Date("Jan 31, 2025 00:00:00").getTime();
 
 const countdown = setInterval(() => {
     const now = new Date().getTime();
